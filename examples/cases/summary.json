@@ -1,0 +1,90 @@
+{
+  "symmetric": {
+    "max_sampled_mean_drift": 7.710303749630665e-16,
+    "initial_energy": 1033.3885622605567,
+    "final_energy": 274.703312237177,
+    "sampled_energy_increases": 0,
+    "initial_variance": 0.0008288990325370666,
+    "final_variance": 0.7937540714208929
+  },
+  "off-critical": {
+    "max_sampled_mean_drift": 7.216449660063518e-16,
+    "initial_energy": 857.8217091632773,
+    "final_energy": 399.2946921909671,
+    "sampled_energy_increases": 0,
+    "initial_variance": 0.0008288990325370666,
+    "final_variance": 0.5874441765410943
+  },
+  "stable-mixture": {
+    "max_sampled_mean_drift": 2.220446049250313e-16,
+    "initial_energy": 145.3593895968411,
+    "final_energy": 132.71040027745715,
+    "sampled_energy_increases": 0,
+    "initial_variance": 0.0008288990325370665,
+    "final_variance": 1.4573109931496677e-10
+  },
+  "dt-0.5": {
+    "max_sampled_mean_drift": 9.248244531301353e-17,
+    "initial_energy": 258.3937527399042,
+    "final_energy": 159.58472789893932,
+    "sampled_energy_increases": 0,
+    "initial_variance": 0.0008325250719989018,
+    "final_variance": 0.5104342920857672
+  },
+  "dt-0.25": {
+    "max_sampled_mean_drift": 5.323432666903827e-17,
+    "initial_energy": 258.3937527399042,
+    "final_energy": 157.76130758660483,
+    "sampled_energy_increases": 0,
+    "initial_variance": 0.0008325250719989018,
+    "final_variance": 0.5149582175369166
+  },
+  "dt-0.125": {
+    "max_sampled_mean_drift": 8.901299836105991e-17,
+    "initial_energy": 258.3937527399042,
+    "final_energy": 156.59707449418693,
+    "sampled_energy_increases": 0,
+    "initial_variance": 0.0008325250719989018,
+    "final_variance": 0.5143637307539733
+  },
+  "dt-0.0625": {
+    "max_sampled_mean_drift": 3.828317871046316e-16,
+    "initial_energy": 258.3937527399042,
+    "final_energy": 155.92986816711806,
+    "sampled_energy_increases": 0,
+    "initial_variance": 0.0008325250719989018,
+    "final_variance": 0.5155610182230551
+  },
+  "time_step_comparison": {
+    "time": 100,
+    "n": 32,
+    "length": 32,
+    "reference_dt": 0.0625,
+    "comparisons": [
+      {
+        "dt": 0.5,
+        "rms_field_difference": 0.25773163730207854,
+        "relative_l2_field_difference": 0.3589448249787735,
+        "final_energy": 159.58472789893932
+      },
+      {
+        "dt": 0.25,
+        "rms_field_difference": 0.20615438577830916,
+        "relative_l2_field_difference": 0.2871127918031698,
+        "final_energy": 157.76130758660483
+      },
+      {
+        "dt": 0.125,
+        "rms_field_difference": 0.04755546725481417,
+        "relative_l2_field_difference": 0.06623086342541697,
+        "final_energy": 156.59707449418693
+      },
+      {
+        "dt": 0.0625,
+        "rms_field_difference": 0.0,
+        "relative_l2_field_difference": 0.0,
+        "final_energy": 155.92986816711806
+      }
+    ]
+  }
+}

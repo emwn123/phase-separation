@@ -7,3 +7,4 @@ dist/
 run/
 off-critical/
 .ruff_cache/
+case-runs/

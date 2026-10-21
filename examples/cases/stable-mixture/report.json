@@ -1,0 +1,8 @@
+{
+  "max_sampled_mean_drift": 2.220446049250313e-16,
+  "initial_energy": 145.3593895968411,
+  "final_energy": 132.71040027745715,
+  "sampled_energy_increases": 0,
+  "initial_variance": 0.0008288990325370665,
+  "final_variance": 1.4573109931496677e-10
+}

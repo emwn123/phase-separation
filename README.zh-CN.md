@@ -21,6 +21,16 @@ phase-separation --mean 0.3 --seed 12 --steps 4000 --output off-critical
 
 ## 模型与数值方法
 
+新增案例可一次运行：
+
+```powershell
+py run_cases.py --output case-runs
+```
+
+包括对称组分、非对称组分、稳定混合物和固定终止时间的时间步对比。参数、结果与适用范围见 [案例说明](examples/CASES.md)。
+
+## 控制方程
+
 模型采用双阱自由能 `(phi²-1)²/4`，化学势为 `mu=phi³-phi-kappa∇²phi`，演化方程为 `∂phi/∂t=M∇²mu`。所有参数均为无量纲量，采用二维周期边界和常迁移率。
 
 空间采用 Fourier 离散，时间采用带线性稳定项的半隐式格式。零波数模态保持不变，因此平均组分在浮点误差范围内守恒。非线性项直接在网格上计算，未做去混叠处理。程序不裁剪组分值，也不人为修改自由能曲线。

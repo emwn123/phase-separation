@@ -33,7 +33,17 @@ For an off-critical mixture:
 phase-separation --mean 0.3 --seed 12 --steps 4000 --output off-critical
 ```
 
-## Model
+## More examples
+
+Run the composition cases and time-step comparison together:
+
+```sh
+python run_cases.py --output case-runs
+```
+
+See the [case guide](examples/CASES.md) for parameters and results.
+
+## Governing equations
 
 All quantities are dimensionless. The conserved order parameter phi follows
 

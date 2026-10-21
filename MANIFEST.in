@@ -1,3 +1,4 @@
 include LICENSE README.md README.zh-CN.md
+include run_cases.py
 recursive-include tests *.py
 recursive-include examples *.md *.png *.json *.csv *.npz
