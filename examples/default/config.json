@@ -1,0 +1,14 @@
+{
+  "n": 64,
+  "steps": 2000,
+  "dt": 0.5,
+  "length": 64.0,
+  "mobility": 1.0,
+  "kappa": 1.0,
+  "stabilization": 2.0,
+  "mean": 0.0,
+  "noise": 0.05,
+  "seed": 7,
+  "every": 200,
+  "numpy_version": "2.5.4"
+}
